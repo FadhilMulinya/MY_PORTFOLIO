@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title and external stylesheets -->
+    <title>Fadhil Mulinya - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Logo and navigation toggle button -->
+        <div class="logo">
+            FADHIL MULINYA <br> -----
+            <!-- Uncomment the following line when you have a logo -->
+            <!-- <img src="/LOGO1.pn" alt="Logo"> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <!-- Navigation Section -->
+        <nav class="nav-tank">
+            <ul class="nav__list">
+                <!-- Navigation items -->
+                <li class="nav_items"><a href="#home">Home</a></li>
+                <li class="nav_items"><a href="#about">About Me</a></li>
+                <li class="nav_items"><a href="#projects">Projects</a></li>
+                <li class="nav_items"><a href="#skills">Skills</a></li>
+                <li class="nav_items"><a href="#resume">Resume</a></li>
+                <li class="nav_items"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <!-- Introductory title and subtitle -->
+        <h1 class="section__title section__title--intro">
+         <strong>Hi I Am</strong>FADHIL MULINYA
+        </h1>
+        <p class="section__subtitle section__title--intro">Blockchain Developer</p>
+        <!-- Image and call-to-action button -->
+        <img src="/Assets/AKL_0343-1.png" alt="a picture of Fadhil">
+        <a href="#projects" class="cta-button">View Projects</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <!-- About Me title and subtitle -->
+        <h2 class="section__title section__title--about">Who Am I ?</h2>
+        <!-- About Me content -->
+        <div class="about-me__body">
+            <p>Hey there! 🌟 I'm Godwill Fadhil Mulinya, your friendly neighborhood aspiring Web3 enthusiast! 🚀</p>
+            <p>By day, I'm on a mission to conquer the world of blockchain technology. Imagine a fusion of a tech wizard and a coding maestro, and you've got me aspiring to be a full-stack blockchain developer! 💻✨</p>
+            <p>While I'm busy building the future of decentralized awesomeness, I'm also the maestro of the frontend symphony. Think of me as the conductor waving my coding baton to create visually stunning and user-friendly experiences! 🎶🎨</p>
+            <p>When not immersed in the blockchain galaxy or crafting delightful user interfaces, you'll find me sipping on a cup of virtual coffee ☕, brainstorming my next big idea, or passionately engaging with tech communities. Because let's be honest, coding is cool, but coding with a community is even cooler! 🚀👩‍💻</p>
+            <p>Join me on this exciting journey where every line of code is an adventure, and every bug is a puzzle waiting to be solved! 🚀✨</p>
+        </div>
+        <!-- Image related to About Me -->
+        <img src="/Assets/blockchain.jpg" alt="emoticon about technology">
+    </section>
+
+    <!-- Projects Section -->
+    <section class="my-projects" id="Projects">
+        <!-- Projects title -->
+        <h2 class="section__title">Projects</h2>
+        <!-- Uncomment the following line to add a subtitle -->
+        <p class="section__subtitle"></p> 
+        <!-- Portfolio Project 1 -->
+        <div class="portfolio-container">
+            <!-- Portfolio Project 1 -->
+            <div class="portfolio" data-desc="Bus Management is written in C">
+                <a href="https://github.com/Fadhil047/BUS-MANAGEMENT">
+                    <img src="/Assets/busManagementcc.jpg" alt="Project 1 Image">
+                </a>
+            </div>
+            
+            <!-- Portfolio Project 2 -->
+            <div class="portfolio" data-desc="Livestock Management is written in Azle Typescript hosted on the ICP blockchain platform">
+                <a href="https://github.com/Fadhil047/LIVESTOCK_MANAGEMENTT">
+                    <img src="/Assets/livestockMgt.jpg" alt="Project 2 Image">
+                </a>
+            </div>
+            
+            <!-- Portfolio Project 3 -->
+            <div class="portfolio" data-desc="Students Management is hosted on the blockchain and it's a canister written in Typescript">
+                <a href="https://github.com/Fadhil047/STUDENTS_MS">
+                    <img src="/Assets/studentMgt.png" alt="Project 3 Image">
+                </a>
+            </div>
+            
+            <!-- Portfolio Project 4 -->
+            <div class="portfolio" data-desc="30 Days of JavaScript aiming at helping people learn JavaScript from basic to advanced">
+                <a href="#">
+                    <img src="/Assets/java-script.jpg" alt="Project 4 Image">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <!-- Skills title -->
+        <h2>Skills</h2>
+        <!-- Skills content -->
+        <h3>Programming Languages</h3>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Typescript</li>
+            <!-- Add more programming languages as needed -->
+        </ul>
+        <h3>Tools</h3>
+        <ul>
+            <li>Git</li>
+            <li>Figma</li>
+            <li>VS Code</li>
+            <li>Github</li>
+            <li>Trello</li>
+            <!-- Add more tools as needed -->
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <!-- Resume title and download button -->
+        <h2>Resume/CV</h2>
+        <a href="/Assets/Resume.pdf" download class="cta-button">Download</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <!-- Contact title and form -->
+        <h2>Contact</h2>
+        <form action="submit_contact_form.php" method="post">
+            <fieldset>
+                <!-- Form fields -->
+                <legend><em>Comments/suggestions will highly be appreciated</em></legend>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        
+        <ul class="social-list">
+            <li><a href="https://github.com/yourusername" target="_blank"><img src="/Assets/icons8-github-100.png" alt="GitHub"></a></li>
+            <li><a href="https://instagram.com/yourusername" target="_blank"><img src="/Assets/icons8-instagram-64.png" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/yourusername" target="_blank"><img src="/Assets/icons8-x-50.png" alt="Twitter"></a></li>
+            <li><a href="https://linkedin.com/in/yourusername" target="_blank"><img src="/Assets/icons8-linked-in-50.png" alt="LinkedIn"></a></li>
+            <li><a href="mailto:your.email@example.com"><img src="/Assets/icons8-gmail-50.png" alt="Email"></a></li>
+        </ul>
+        <!-- Copyright and policy information -->
+        <p>&copy; 2023 Fadhil Mulinya | Privacy Policy | Terms of Service</p>
+    </footer>
+
+    <!-- Add your JavaScript links or script tags here -->
+
+</body>
+
+</html>
